@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         startUI()
 
     }
-
+// I add this line for Second version of Github coded as "Git_V2"
     fun startUI(){
         //Start code method
         btnShowToast.setOnClickListener {
