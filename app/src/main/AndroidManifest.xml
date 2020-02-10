@@ -12,10 +12,16 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- naming second activity -->
+        <activity android:name=".Homework1Activity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".Homework1ActivityS2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <!-- END naming 2nd activity -->
+
     </application>
 
 </manifest>
